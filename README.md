@@ -45,10 +45,12 @@ cd <repository_name>
 
 It's recommended to use a virtual environment to manage dependencies.
 
-```bash
 # For Windows
+
+```bash
 python -m venv venv
 venv\Scripts\activate
+```
 
 # For macOS/Linux
 python3 -m venv venv
@@ -60,6 +62,8 @@ Install all the required Python packages using the `requirements.txt` file.
 
 ```bash
 pip install -r requirements.txt
+```
+
 ### 5. Set up ChromeDriver
 
 The web scraper (`scrape.py`) uses Selenium to control a Chrome browser.
